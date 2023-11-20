@@ -1,0 +1,79 @@
+[
+  {
+    "id": 0,
+    "name": "Offer 1",
+    "availability": 50,
+    "museum": "Pantheon",
+    "price":12.5
+  },
+  {
+    "id": 1,
+    "name": "Offer 2",
+    "availability": 50,
+    "museum": "Smanteon",
+    "price":12.5
+  },
+  {
+    "id": 2,
+    "name": "Offer 3",
+    "availability": 50,
+    "museum": "Tranteon",
+    "price":12.5
+  },
+  {
+    "id": 3,
+    "name": "Offer 4",
+    "availability": 50,
+    "museum": "Pantaeon",
+    "price":12.5
+  },
+  {
+    "id": 4,
+    "name": "Offer 5",
+    "availability": 50,
+    "museum": "Lilon",
+    "price":12.5
+  },
+  {
+    "id": 5,
+    "name": "Offer 6",
+    "availability": 50,
+    "museum": "Cojon",
+    "price":12.5
+  },
+  {
+    "id": 6,
+    "name": "Offer 7",
+    "availability": 50,
+    "museum": "Furgon",
+    "price":12.5
+  },
+  {
+    "id": 7,
+    "name": "Offer 8",
+    "availability": 50,
+    "museum": "Leon",
+    "price":12.5
+  },
+  {
+    "id": 8,
+    "name": "Offer 9",
+    "availability": 50,
+    "museum": "Simion",
+    "price":12.5
+  },
+  {
+    "id": 9,
+    "name": "Offer 10",
+    "availability": 50,
+    "museum": "AEON ZAN ZAN",
+    "price":12.5
+  },
+  {
+    "id": 10,
+    "name": "Offer 11",
+    "availability": 50,
+    "museum": "Rigon",
+    "price":12.5
+  }
+]

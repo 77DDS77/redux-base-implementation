@@ -1,0 +1,9 @@
+<div class="ticket">
+    <p>{{offer.name}}</p>
+    <div class="tckt-counter">
+        <button (click)="ticketAmount = ticketAmount - 1">-</button>
+        <input type="number" name="ticket-counter" id="ticket-counter" [value]="ticketAmount" min="0"> 
+        <button (click)="ticketAmount = ticketAmount + 1">+</button>
+    </div>
+    <button (click)="addToCart()">Add To Cart</button>
+</div>

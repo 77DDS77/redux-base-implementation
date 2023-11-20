@@ -1,0 +1,17 @@
+<p>offers-page works!</p>
+
+<div class="buttons">
+    <button [routerLink]="['/second-page']"> --> </button>
+    <button (click)="reloadOffers()">Reload</button>
+    <button>Add To Cart</button>
+</div>
+
+<div class="offers-container">
+    <div *ngFor="let offer of offers">
+        <offer [offer]="offer"></offer>
+    </div>
+</div>
+
+<div *ngIf="error$ | async as error">
+    Error loading offers: {{ error.status }}
+</div>

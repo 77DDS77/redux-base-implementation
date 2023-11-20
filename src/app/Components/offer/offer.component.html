@@ -1,0 +1,9 @@
+<div class="card">
+    <h4>{{offer.name}}</h4>
+    <p>{{offer.museum}}</p>
+    <p>Availability: {{offer.availability}}</p>
+
+    <button (click)="mostraTicket = !mostraTicket">Biglietti</button>
+    
+    <ticket *ngIf="mostraTicket" [offer]="offer"></ticket>
+</div>
