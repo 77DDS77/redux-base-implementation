@@ -1,0 +1,9 @@
+<p>month works!</p>
+
+<div class="calendar-container">
+    <div class="calendar">
+        <div *ngFor="let day of days">
+            <day-view [day]="day"></day-view>
+        </div>
+    </div>
+</div>

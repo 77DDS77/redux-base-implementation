@@ -1,0 +1,32 @@
+.day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.today {
+    border: 2px solid green;
+}
+
+.invalid {
+    color: rgba(103, 103, 103, 0.622);
+}
+
+@media screen and (min-width: 576px) {
+    .day {
+        width: 75px;
+        height: 75px;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .day {
+        width: 100px;
+        height: 100px;
+    }
+}

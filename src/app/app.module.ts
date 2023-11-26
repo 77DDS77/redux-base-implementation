@@ -15,6 +15,7 @@ import { EffectsModule } from '@ngrx/effects';
 import { OfferEffects } from './state/effects/offers.effect';
 import { TicketComponent } from './Components/ticket/ticket.component';
 import { CartReducer } from './state/reducers/cart.reducer';
+import { CalendarComponent } from './Components/Calendar/calendar/calendar.component';
 
 @NgModule({
   declarations: [AppComponent, OffersPageComponent, SecondPageComponent],
@@ -29,6 +30,7 @@ import { CartReducer } from './state/reducers/cart.reducer';
     StoreDevtoolsModule.instrument({
       maxAge: 25, // Retains last 25 states // Restrict extension to log-only mode in production
     }),
+    CalendarComponent
   ],
   providers: [],
   bootstrap: [AppComponent],
